@@ -10,6 +10,5 @@ import com.testebackend.gerenciamentodepessoas.models.Pessoa;
 @Repository
 
 public interface PessoaRepository extends CrudRepository<Pessoa, UUID>  {
-	Optional<Pessoa> findById(UUID id);
 
 }
